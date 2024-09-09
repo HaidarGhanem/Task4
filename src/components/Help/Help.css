@@ -1,0 +1,5 @@
+.help-card {
+    height: 280px !important;
+    background-color: var(--Primary-Color) !important;
+    border: none !important;
+}

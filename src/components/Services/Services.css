@@ -1,0 +1,13 @@
+.services__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 30px;
+}
+
+.services__card {
+    width: 17rem;
+    height: auto !important;
+}

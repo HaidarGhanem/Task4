@@ -1,0 +1,40 @@
+.contact__container {
+    margin-top: 130px;
+}
+
+.location {
+    height: 400px;
+}
+
+.icon__border {
+    width: 60px;
+    height: 60px;
+    border: 2px dashed var(--Primary-Color);
+    border-radius: 50%;
+}
+
+.location__box{
+    width: 530px;
+}
+
+.details__box {
+    width: 250px;
+}
+
+.inputs__box {
+    width: 530px;
+    height: 350px !important;
+}
+
+.subject__box {
+    width: 400px !important;
+    margin-right: 25px;    
+}
+
+
+.message__box {
+        text-align:start;
+        height: 150px;
+        width: 400px !important;
+        margin-right: 25px;    
+}

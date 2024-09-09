@@ -1,0 +1,19 @@
+.about__container {
+    margin: 0 40px;
+}
+
+.video img{
+    height: 410px;
+    width: 650px !important;
+    object-fit: cover;
+    transition: 0.7s all;
+    cursor: pointer;
+}
+
+.about__container img:hover {
+    filter: grayscale(1);
+}
+
+.seen {
+    width: 2rem;
+}

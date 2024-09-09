@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --Primary-Color : rgb(74, 204, 204);
+  --Secondary-Color : rgb(252, 252, 252);
+  --Optional-Color : rgb(211, 235, 240);
+  --Base-Color : #444444;
+  --Base-Text : white;
+  --Black-Text : #444444;
+}
+
+body {
+  height: 8000px;
+  background-color: rgb(252, 252, 252);
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.b-light {
+  background-color: var(--Optional-Color);
+}
+
+.b-white {
+  background-color: var(--Secondary-Color);
+}
+
+.t-cyan {
+  color: var(--Primary-Color);
+}
+
+.t-white {
+  color: var(--Base-Text) !important;
+}
+
+.t-black {
+  color: var(--Black-Text) !important;
+}
+
+.btn {
+  background-color: var(--Primary-Color) !important;
+  border: none !important;
+  transition: 0.5s all;
+}
+
+.btn:hover {
+  background-color: rgb(134, 228, 228) !important;
+}
+
+.btn_light {
+  background-color: var(--Primary-Color) !important;
+  border: none !important;
+  border: 2px solid white !important;
+  transition: 0.5s all;
+}
+
+.btn_light:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: var(--Primary-Color);
+}
+

@@ -1,0 +1,8 @@
+.lab__container {
+    margin: 0 40px;
+}
+
+.lab__img {
+    height: 800px !important;
+    object-fit: cover;
+}

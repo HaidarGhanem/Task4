@@ -1,0 +1,7 @@
+.gallery__container {
+    margin-top: 100px;
+}
+
+.carousel-container {
+    display: flex;
+}

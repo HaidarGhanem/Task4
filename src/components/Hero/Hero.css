@@ -1,0 +1,24 @@
+.carousel-style {
+    transition: 0.7s !important;
+    position: relative !important;
+}
+
+.carousel-style img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    height: 100px;
+}
+
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: var(--Primary-Color) !important;
+}

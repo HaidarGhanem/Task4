@@ -1,0 +1,9 @@
+.logo {
+    height: 35px;
+}
+
+.links:hover {
+    color: var(--Primary-Color) !important;
+    transition: 0.5s all;
+
+}

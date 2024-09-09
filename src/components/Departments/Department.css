@@ -1,0 +1,32 @@
+.dep__container {
+    margin-top: 100px;
+}
+
+.dep__lists {
+    list-style: none;
+    padding: 0;
+}
+
+.dep__lists li {
+    height: 50px;
+    border-right: 2px solid rgb(206, 206, 206);
+    cursor: pointer; 
+    transition: all 0.3s; 
+}
+
+.dep__lists li:hover {
+    border-right: 2px solid var(--Primary-Color);
+    color: var(--Primary-Color);
+}
+
+.active {
+    border-right: 2px solid var(--Primary-Color) !important;
+    color: var(--Primary-Color);
+}
+
+.dep__img {
+    width: 90%;
+    max-width: 350px; 
+    height: auto; 
+    margin-left: 40px; 
+}

@@ -1,0 +1,19 @@
+.title__container {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title__border {
+    width: 70px;
+    border-bottom: 3px solid var(--Primary-Color);
+}
+
+@media screen and (max-width : 992px) {
+    .title__container p { 
+        font-size: 14px
+    }
+}
